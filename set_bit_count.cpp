@@ -1,3 +1,4 @@
+//check how many set bits are there in a number
 #include<bits/stdc++.h>
 using namespace std;
 main()
