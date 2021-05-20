@@ -9,6 +9,6 @@ main()
 	cin>>n;
 	cout<<"Enter position : ";
 	cin>>p;
-	res = (n|((p-1)<<1));
+	res = n | (1<<p);
 	cout<<"Result is : "<<res;
 }
